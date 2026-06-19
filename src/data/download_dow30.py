@@ -63,4 +63,6 @@ files=list(Path(RAW_DIR).glob("*csv"))
 print(f" the totoal nos of stocks used here are {len(files)}")
 
 df=pd.read_csv(RAW_DIR/"AAPL.csv")
-print(df)
+# print(df)
+
+# %%
