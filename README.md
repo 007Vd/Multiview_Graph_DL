@@ -5,3 +5,6 @@ end_date=31_12_2023
 dowload the 15 relevant stocks from DOW_30 
 using yfinance
 
+created Simple MLP
+
+created LSTM_attn
