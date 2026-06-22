@@ -8,3 +8,5 @@ using yfinance
 created Simple MLP
 
 created LSTM_attn
+
+created required multi view static graphs

@@ -6,3 +6,5 @@ ipykernel
 Path
 matplotlib
 optuna
+openai
+dotenv
