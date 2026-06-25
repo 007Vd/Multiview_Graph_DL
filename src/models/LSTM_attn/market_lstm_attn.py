@@ -111,6 +111,9 @@ class PortfolioLSTM(nn.Module):
             )
     
     def forward(self,x):
+        # B = x.shape[0]
+        # x = x.permute(0,2,1)
+        # x = x.reshape(B*15,30,1)
         H,_=self.lstm(x)
         X_last=x[:,-1,:]
         E,alpha=self.attn(H,X_last)
